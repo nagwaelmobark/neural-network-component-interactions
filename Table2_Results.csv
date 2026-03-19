@@ -1,0 +1,7 @@
+Normalization,Optimizer,Epochs to 90%,Final Test Acc,Training Time
+BatchNorm,SGD,23,91.2%,1.0×
+BatchNorm,Adam,19,90.8%,1.15×
+LayerNorm,SGD,37,88.5%,1.05×
+LayerNorm,Adam,22,90.3%,1.18×
+None,SGD,142,83.1%,0.95×
+None,Adam,48,87.9%,1.08×

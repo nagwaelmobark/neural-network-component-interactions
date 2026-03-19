@@ -1,0 +1,11 @@
+Activation,Initialization,Epochs to 90%,Relative Speed,Final Test Acc
+ReLU,He,23,Baseline,91.2%
+ReLU,Xavier,67,2.9× slower,88.3%
+ReLU,Random,89,3.9× slower,85.7%
+Leaky ReLU,He,22,1.05× faster,91.5%
+Leaky ReLU,Xavier,58,2.5× slower,89.1%
+GELU,He,21,1.09× faster,91.8%
+GELU,Xavier,29,1.26× slower,90.5%
+Tanh,He,124,5.4× slower,76.2%
+Tanh,Xavier,41,1.78× slower,87.9%
+Sigmoid,Xavier,156,6.8× slower,68.4%
